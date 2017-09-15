@@ -2,7 +2,6 @@
 
 class PlayersController < ApplicationController
 
-  # return a JWT
   def create
   end
 
