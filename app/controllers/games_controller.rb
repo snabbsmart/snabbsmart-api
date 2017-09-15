@@ -6,6 +6,6 @@ class GamesController < ApplicationController
     render json: @game
   end
 
-  def update
+  def start
   end
 end
