@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nickname: MyString
+  token: MyString
+  game: one
+
+two:
+  nickname: MyString
+  token: MyString
+  game: two
