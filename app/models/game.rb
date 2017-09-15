@@ -2,6 +2,7 @@
 
 class Game < ApplicationRecord
   has_many :players
+  has_many :questions
 
   before_save :generate_token
 

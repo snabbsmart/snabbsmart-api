@@ -7,5 +7,6 @@ class GamesController < ApplicationController
   end
 
   def start
+    GameChannel.start(Game.find_by(token: params[:token]))
   end
 end

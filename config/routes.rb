@@ -4,4 +4,7 @@ Rails.application.routes.draw do
   get   'games/:token', to: 'games#show'
   patch 'games/:token/start', to: 'games#start'
   post  'games/:token/players', to: 'players#create'
+
+  # Serve websocket cable requests in-process
+  mount ActionCable.server => '/cable'
 end
